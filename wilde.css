@@ -17,12 +17,25 @@
     font-size: x-large;
     color: orange;
 }
+
 .LORDGORING{
     color: red;
+    
+}
+.LORDGORING:hover{
+    border-style: solid;
+    background-color: rgb(0, 139, 58);
+    text-shadow: 3px 3px darkmagenta;
 }
 .LORDCAVERSHAM{
     color: royalblue;
 }
+.LORDCAVERSHAM:hover{
+    border-style: solid;
+    background-color: rgb(0, 139, 58);
+    text-shadow: 3px 3px darkmagenta;
+}
+
 table,th,td{
     border: 5px solid black;
     border-color: tomato;
