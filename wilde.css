@@ -23,3 +23,13 @@
 .LORDCAVERSHAM{
     color: royalblue;
 }
+table,th,td{
+    border: 5px solid black;
+    border-color: tomato;
+    text-align: center;
+    padding: 10px;
+    margin: 25px 50px 75px 100px;
+}
+tr:nth-child(odd){
+    background-color: darkgreen;
+}
