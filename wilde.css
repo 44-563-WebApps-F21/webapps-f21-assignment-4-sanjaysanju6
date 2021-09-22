@@ -1,15 +1,18 @@
 .speech{
     font-family: serif;
     font-size: medium;
-    color: lightgreen;
+    color: black;
 }
 .stage-direction{
     font-family: sans-serif;
     font-size: medium;
-    color: aqua;
+    color:black;
     background-color: lightskyblue;
 }
 .stage-direction.hover{
+    font-family: Arial;
+    font-size: medium;
+    color: black;
     background-color: lightblue;
 }
 .name{
@@ -45,4 +48,14 @@ table,th,td{
 }
 tr:nth-child(odd){
     background-color: darkgreen;
+}
+ 
+.navbar {
+    margin: auto;
+    width: 75%;
+    background-color: lightblue;
+    border: 3px solid springgreen;
+    padding: 10px;
+    display: block;
+    text-align: center;
 }
